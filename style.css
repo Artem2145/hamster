@@ -1,0 +1,17 @@
+body {
+  background-image: url(https://newsnn.ru/attachments/25ade56436c692a8f3525b65017262c6c72af27a/store/crop/0/224/3312/1863/500/0/0/3b325126ae73475c0d6ac80f27e93e358aefc1e2bd7a789ae98f9e0c2650/1717587918826.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  color: beige;
+  font-size: 40px;
+  text-align: center;
+}
+button {
+  color: black;
+  font-size: 40px;
+  margin: 0 auto;
+  display: block;
+}
