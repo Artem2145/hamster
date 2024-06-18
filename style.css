@@ -1,17 +1,26 @@
 body {
-  background-image: url(https://newsnn.ru/attachments/25ade56436c692a8f3525b65017262c6c72af27a/store/crop/0/224/3312/1863/500/0/0/3b325126ae73475c0d6ac80f27e93e358aefc1e2bd7a789ae98f9e0c2650/1717587918826.webp);
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRP8elK50GuUbx4mOUEWODt7j-la9VpIiN95wNzjmAPwUmD5cnX_r2evzH83xqs1yeHGi4&usqp=CAU);
   background-size: cover;
+  background-size: 100% 900px;
   background-repeat: no-repeat;
 }
-
+.new-class{
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEHEPPV9zIol1HRiHEELuHSAlwA1fLTckbOA&s);
+  background-size: cover;
+  background-size: 100% 900px;
+  background-repeat: no-repeat;
+}
 h1 {
-  color: beige;
-  font-size: 40px;
+  color: aqua;
+  font-size: 70px;
   text-align: center;
 }
 button {
-  color: black;
-  font-size: 40px;
-  margin: 0 auto;
-  display: block;
+  opacity: 0; /* Зробити кнопку прозорою */
+  width: 100vw; /* Зробити кнопку такою ж широкою, як вікно браузера */
+  height: 100vh; /* Зробити кнопку такою ж високою, як вікно браузера */
+  position: absolute; /* Зняти її з потоку документу */
+  top: 0; /* Розмістити кнопку у верхньому лівому куті */
+  left: 0; /* Розмістити кнопку у верхньому лівому куті */
+  z-index: 1;
 }

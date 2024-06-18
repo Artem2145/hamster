@@ -10,7 +10,12 @@ button.textContent = "Нажать";
 button.onclick = function () {
   counter++;
   title.textContent = `Ти нажал ${counter} раз`;
+  if (counter >= 150) {
+    title.textContent = `Єбать ти крутой`;
+    document.body.classList.add("new-class");
+  }
 };
+
 
 document.body.append(title);
 document.body.append(button);
