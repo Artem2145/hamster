@@ -4,7 +4,7 @@ body {
   background-size: 100% 900px;
   background-repeat: no-repeat;
 }
-.new-class{
+.new-class {
   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEHEPPV9zIol1HRiHEELuHSAlwA1fLTckbOA&s);
   background-size: cover;
   background-size: 100% 900px;
@@ -12,6 +12,11 @@ body {
 }
 h1 {
   color: aqua;
+  font-size: 70px;
+  text-align: center;
+}
+p {
+  color: greenyellow;
   font-size: 70px;
   text-align: center;
 }
